@@ -24,38 +24,89 @@
     </header>
 
     <main>
-        <div class="recipe">
-            <div class="recipe-item">
-                <h2>레시피 1</h2>
-                <p>레시피 설명 1...</p>
-            </div>
-            <div class="recipe-item">
-                <h2>레시피 2</h2>
-                <p>레시피 설명 2...</p>
-            </div>
-            <div class="recipe-item">
-                <h2>레시피 3</h2>
-                <p>레시피 설명 3...</p>
-            </div>
-        </div>
-        <div class="login">
-            <h2>로그인</h2>
-            <form>
-                <input type="text" placeholder="아이디">
-                <br>
-                <input type="password" placeholder="패스워드">
-                <button type="submit">로그인</button>
+        <section class="daily-and-login">
+            <section class="daily-recipe">
+                <h2>DAILY ♡</h2>
+                <div class="recipe-card">
+                    
+                    <h3>레시피 이름</h3>
+                    <div class="likes">
+                        <img src="like-icon.jpg" alt="Like">
+                        <span>00</span>
+                    </div>
+                    <br>
+                    <img src="recipe-image.jpg" alt="Recipe Image">
+                    <br>
+                    <button>레시피 이용하기</button>
+                </div>
+
+                <div class="recipe-card">
+                    
+                    <h3>레시피 이름</h3>
+                    <div class="likes">
+                        <img src="like-icon.jpg" alt="Like">
+                        <span>00</span>
+                    </div>
+                    <br>
+                    <img src="recipe-image.jpg" alt="Recipe Image">
+                    <br>
+                    <button>레시피 이용하기</button>
+                </div>
+
+                <div class="recipe-card">
+                    <h3>레시피 이름</h3>                    
+                    <div class="likes">
+                        
+                        <img src="like-icon.jpg" alt="Like">
+                        <span>00</span>
+                    </div>
+                    <br>
+                    <img src="recipe-image.jpg" alt="Recipe Image">
+                    <br>
+                    <button>레시피 이용하기</button>
+                </div>
+
+            </section>
+        
+            <aside class="login-box">
+                <form>
+                    <input type="text" placeholder="ID">
+                    <input type="password" placeholder="PW">
+                    <button type="submit">LOGIN</button>
+                    <a href="signUp.html">
+                        <button>회원가입</button>
+                    </a>
+                    <a href="findPW.html">Forgot password?</a>
+                </form>
+            </aside>
+        </section>
+        <br>
                 
-                
-                
-            </form>
-            <a href="signUp.html"> 
-                    <button>회원가입</button>
-            </a>
-            <a href="findPW.html">
-                <button>비번찾기</button>
-            </a>
-        </div>
+        <section class="category-top">
+            <div class="category">
+                <h3>HOT 게시판</h3>
+                <ul>
+                    <li><a href="#">레시피 1</a></li>
+                    <li><a href="#">레시피 2</a></li>
+                </ul>
+            </div>
+            <div class="category">
+                <h3>HOT 게시판</h3>
+                <ul>
+                    <li><a href="#">레시피 1</a></li>
+                    <li><a href="#">레시피 2</a></li>
+                </ul>
+            </div>
+            <div class="category">
+                <h3>HOT 게시판</h3>
+                <ul>
+                    <li><a href="#">레시피 1</a></li>
+                    <li><a href="#">레시피 2</a></li>
+                </ul>
+            </div>
+        </section>
+
+        
     </main>
 </body>
 
