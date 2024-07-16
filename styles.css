@@ -85,6 +85,7 @@ main {
     text-align: center;
     padding: 10px;
     background-color: #ffffff;
+    border: 2px solid #e0e0e0;
     border-radius: 5px;
 }
 
@@ -133,6 +134,7 @@ main {
 
 .login-box {
     width: 20%;
+    margin:auto;
     padding: 20px;
     border-radius: 5px;
     background-color: #f5f5f5;
@@ -211,4 +213,14 @@ main {
 
 .category li:first-child {
     border-top: none;
+}
+
+
+
+.center{
+    width:100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 10%;
+    margin:auto;
 }
