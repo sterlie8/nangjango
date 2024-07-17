@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>냉jango()</title>
     <link rel="stylesheet" href="styles.css">
+    
        
 </head>
 
@@ -18,9 +19,21 @@
             <input type="text" placeholder="search">
             <button><img src="search-icon.png" alt="search"></button>
         </div>
+            
         <div class="menu-icon">
             <img src="menu-icon.png" alt="menu">
+            <div class="dropdown-menu">
+                <a href="koreapost.html">한식</a>
+                <a href="chinapost.html">중식</a>
+                <a href="japanpost.html">일식</a>
+                <a href="diet.html">식단</a>
+                <a href="recipeRegistration.html">레시피 등록</a>
+            </div>
         </div>
+
+        
+
+        
     </header>
 
     <main>
@@ -73,11 +86,14 @@
                     <input type="text" placeholder="ID">
                     <input type="password" placeholder="PW">
                     <button type="submit">LOGIN</button>
-                    <a href="signUp.html">
-                        <button>회원가입</button>
-                    </a>
-                    <a href="findPW.html">Forgot password?</a>
                 </form>
+                    <button onclick="location.href='signUp.html'">회원가입</button>
+                    <a href="findPW.html">Forgot password?</a>
+                
+                <br>
+                <div>
+                    <button onclick="location.href='recipeRegistration.html'">레시피 등록하기</button>
+                </div>
             </aside>
         </section>
         <br>
